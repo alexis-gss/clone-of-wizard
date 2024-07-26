@@ -1,0 +1,25 @@
+@import url("./variables.css");
+
+@font-face {
+    font-family: 'Carter One';
+    src: url('./../assets/fonts/CarterOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Carter One', system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: fit-content;
+    color: var(--color1);
+}
+#footer {
+    background: var(--color3);
+}

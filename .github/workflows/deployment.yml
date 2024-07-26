@@ -1,0 +1,11 @@
+name: Github actions deployment
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deployment:
+    name: Deployment production
+    uses: alexis-gss/github-workflows/.github/workflows/deployment.yml@master
+    secrets: inherit
