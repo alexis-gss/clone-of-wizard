@@ -1,36 +1,42 @@
-html, body{
-    height: 90%;
-    font-family: 'Carter One', cursive;
-    color: #ccc;
+:root {
+    --color1: #3056aa;
+    --color2: #ccc;
 }
-body{
-    background: #1D1D1D;
+body {
+    background: #1d1d1d;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 100%;
+    min-height: 100vh;
+    height: fit-content;
 }
-div{
+.game-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-canvas{
+canvas {
     display: block;
 }
-.displayNone{
+.displayNone {
     display: none;
 }
-a{
+a {
     cursor: pointer;
 }
-.btnStart, .btnEditor, .btnMenu, .modeFacile, .temps, .tempsGemme, .tempsFlame{
+.btnStart,
+.btnEditor,
+.btnMenu,
+.btnEasyMode,
+.temps,
+.tempsGemme,
+.tempsFlame {
     position: absolute;
     border: none;
-    color: #3056AA;
+    color: var(--color1);
     background-color: white;
     font-weight: 400;
     padding: 15px 32px;
@@ -39,57 +45,61 @@ a{
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
+    font-family: "Carter One", cursive;
 }
-.btnStart{
+.btnStart {
     transform: translate(-5rem, 13rem);
 }
-.btnEditor{
+.btnEditor {
     transform: translate(5rem, 13rem);
 }
-.btnMenu{
+.btnMenu {
     color: white;
     background: none;
     transform: translate(-23.7rem, -13.6rem);
 }
-.btnMenu:hover{
-    color: #3056AA;
+.btnMenu:hover {
+    color: var(--color1);
     background-color: white;
 }
-.modeFacile{
+.btnEasyMode {
     color: white;
     background: none;
     transform: translate(-11.5rem, -13.6rem);
 }
-.modeFacile:hover{
-    color: #3056AA;
+.btnEasyMode:hover {
+    color: var(--color1);
     background-color: white;
 }
-.temps{
+.temps {
     color: white;
     background: none;
     transform: translate(0, 4rem);
 }
-.tempsGemme{
+.tempsGemme {
     color: white;
     background: none;
-    transform: translate(7rem, -13.6rem)
+    transform: translate(7rem, -13.6rem);
 }
-.tempsFlame{
+.tempsFlame {
     color: white;
     background: none;
     transform: translate(0rem, -13.6rem);
 }
-.indicateurVie, .indicateurLvl, .indicateurLvldesc{
+.indicateurVie,
+.indicateurLvl,
+.indicateurLvldesc {
     position: absolute;
     transform: translate(25rem, -13.6rem);
 }
-.indicateurVie{
+.indicateurVie {
     transform: translate(15rem, -13.6rem);
 }
-.indicateurLvldesc{
+.indicateurLvldesc {
     transform: translate(21.5rem, -13.6rem);
 }
-.volumeOn, .volumeOff{
+.volumeOn,
+.volumeOff {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;

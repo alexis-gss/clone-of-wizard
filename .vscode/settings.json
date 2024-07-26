@@ -1,26 +1,26 @@
 {
-    // #1D1D1D
-    // #3056AA
-    // #FFFFFF
-
     "workbench.colorCustomizations": {
-        "activityBar.background": "#3056AA",
-        "sash.hoverBorder": "#3056AA",
-        "statusBar.background": "#3056AA",
-        "titleBar.activeBackground": "#3056AA",
-        "activityBarBadge.background": "#3056AA",
-        
-        "titleBar.inactiveBackground": "#3056AA77",
-        "titleBar.inactiveForeground": "#FFFFFF77",
-
-        "icon.foreground": "#3056AA",
-        "titleBar.activeForeground": "#1D1D1D",
-        "statusBar.foreground": "#1D1D1D",
-        "activityBar.activeBackground": "#1D1D1D",
-        "activityBar.inactiveForeground": "#1D1D1D",
-
-        "activityBarBadge.foreground": "#FFFFFF",
-        "activityBar.foreground": "#FFFFFF",
-        "activityBar.activeBorder": "#FFFFFF"
-    }
+        "activityBar.activeBorder": "#eb549a",
+        "activityBar.activeBackground": "#688ad3",
+        "activityBar.background": "#688ad3",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#942b4d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#688ad3",
+        "statusBar.background": "#416bc7",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#688ad3",
+        "statusBarItem.remoteBackground": "#416bc7",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#416bc7",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#416bc799",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#416bc7",
+    "intelephense.environment.phpVersion": "8.3.0",
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.phpdoc.useFullyQualifiedNames": true
 }
