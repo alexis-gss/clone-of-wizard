@@ -6,6 +6,16 @@ All notable changes to `clone-of-wizard` will be documented in this file.
 - This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html),
 - Commits respect [Conventionnal commits](https://www.conventionalcommits.org/en/v1.0.0/) & use [Gitmoji](https://gitmoji.dev/).
 
+## **[v1.1.0] - 01.08.24**
+
+### Added
+-   docs: 📝 synchronization of the Clone of Wizard GitBook content
+
+### Changed
+-   refactor: ♻️ update project (docs, indentation, naming, assets etc...)
+
+Full changelog: https://github.com/alexis-gss/clone-of-wizard/compare/v1.0.1...v1.1.0
+
 ## **[v1.0.1] - 09.07.22**
 
 ### Changed

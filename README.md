@@ -9,6 +9,7 @@
 </div>
 
 # Introduction
+
 [Clone of Wizard](http://clone-of-wizard.alexis-gousseau.com/) is a platformer game realised under vanilla javascript.
 
 Furthermore, you can play your own map thanks to the map editor also available in this project.
@@ -23,6 +24,7 @@ Furthermore, you can play your own map thanks to the map editor also available i
 - [Copyright and License](#copyright-and-license)
 
 # Frameworks, Platforms and Libraries
+
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![Gitbook](https://img.shields.io/badge/GitBook-7B36ED?style=for-the-badge&logo=gitbook&logoColor=white)](https://www.gitbook.com/)
@@ -33,7 +35,7 @@ You can find all the documentation of this project on this link : [Clone of Wiza
 
 # Changelog
 
-Latest version v1.0.1.
+Latest version v1.1.0.
 
 See the [CHANGELOG.md](CHANGELOG.md) file for details.
 
