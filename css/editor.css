@@ -1,43 +1,45 @@
-html, body{
-    height: 90%;
-    font-family: 'Carter One', cursive;
-    color: #ccc;
-    font-weight: 400;
-    font-size: 16px;
+:root {
+    --color1: #3056aa;
+    --color2: #ccc;
+    --color3: #1d1d1d;
 }
-body{
-    background: #1D1D1D;
+body {
+    background: var(--color3);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
 }
-canvas{
+.editor-wrapper {
+    padding: 3rem 0;
+}
+canvas {
     display: block;
-    background: url("../data/fondentier.jpg");
+    background: url("../data/backgrounds/forest.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.content{
+.content {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: space-around;
 }
-.contentSelectionneur{
+.contentSelectionneur {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 0 30px;
 }
-.menu{
+.menu {
     position: relative;
 }
-.selecteur{
+.selecteur {
     width: 64px;
     height: 64px;
     border: solid 4px red;
@@ -45,14 +47,14 @@ canvas{
     top: -4px;
     left: -4px;
 }
-.resTable{
+.resTable {
     margin: 2rem;
     height: 40px;
     width: 500px;
     /* LIGNE À ENLEVER POUR CRÉER DES NOUVEAUX NIVEAUX */
     display: none;
 }
-.btns{
+.btns {
     width: 1344px;
     display: flex;
     flex-direction: row;
@@ -60,9 +62,11 @@ canvas{
     justify-content: space-evenly;
     margin: 1rem 0;
 }
-.btnMenu, .btnTester, .btnDelEditedMap{
+.btnMenu,
+.btnTester,
+.btnDelEditedMap {
     border: none;
-    color: #3056AA;
+    color: var(--color1);
     background-color: white;
     padding: 15px 32px;
     text-align: center;
