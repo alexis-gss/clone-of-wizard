@@ -1,16 +1,16 @@
 <div align="center">
 
-[![Banner of the github account](./resources/assets/images/github-visual.png)](https://clone-of-wizard.alexis-gousseau.com/)
+[![Banner of the github account](./assets/images/github-visual.jpg)](https://clone-of-wizard.alexis-gousseau.com/)
 
 [![Website test](https://img.shields.io/website-up-down-green-red/https/clone-of-wizard.alexis-gousseau.com?style=for-the-badge)](https://clone-of-wizard.alexis-gousseau.com)
-[![GitHub latest commit](https://img.shields.io/github/last-commit/alexis-gss/clone-of-wizard/develop?color=5A718A&style=for-the-badge)](https://github.com/alexis-gss/clone-of-wizard/commit/master)
-[![GitHub tag](https://img.shields.io/github/tag/alexis-gss/clone-of-wizard?style=for-the-badge&color=5A718A)](https://github.com/alexis-gss/clone-of-wizard/tags)
-[![GitHub License](https://img.shields.io/github/license/alexis-gss/clone-of-wizard?color=5A718A&style=for-the-badge)](https://github.com/alexis-gss/clone-of-wizard/blob/master/LICENSE)
+[![GitHub latest commit](https://img.shields.io/github/last-commit/alexis-gss/clone-of-wizard/develop?color=416bc7&style=for-the-badge)](https://github.com/alexis-gss/clone-of-wizard/commit/master)
+[![GitHub tag](https://img.shields.io/github/tag/alexis-gss/clone-of-wizard?style=for-the-badge&color=416bc7)](https://github.com/alexis-gss/clone-of-wizard/tags)
+[![GitHub License](https://img.shields.io/github/license/alexis-gss/clone-of-wizard?color=416bc7&style=for-the-badge)](https://github.com/alexis-gss/clone-of-wizard/blob/master/LICENSE)
 
 </div>
 
 # Introduction
-[Clone of Wizard](http://clone-of-wizard.alexis-gousseau.com/) is a platformer game realised under vanilla javascript.
+[Clone of Wizard](https://clone-of-wizard.alexis-gousseau.com/) is a platformer game realised under vanilla javascript.
 
 Furthermore, you can play your own map thanks to the map editor also available in this project.
 
@@ -29,16 +29,16 @@ Furthermore, you can play your own map thanks to the map editor also available i
 
 # Documentation
 
-You can find all the documentation of this project on this link : [Clone of Wizard documentation](https://docs-clone-of-wizard.alexis-gousseau.com).
+You can find all the documentation of this project on this link : [Clone of Wizard documentation](https://doc-clone-of-wizard.alexis-gousseau.com).
 
 # Changelog
 
-Latest version v1.0.1.
+Latest version [v1.2.0](https://github.com/alexis-gss/github-workflows/releases/tag/v1.2.0).
 
 See the [CHANGELOG.md](CHANGELOG.md) file for details.
 
 # Copyright and License
 
-[Clone of Wizard](http://clone-of-wizard.alexis-gousseau.com/) was written by [Alexis Gousseau](https://github.com/alexis-gss).
+[Clone of Wizard](https://clone-of-wizard.alexis-gousseau.com) was written by [Alexis Gousseau](https://github.com/alexis-gss).
 
 Copyright (c) 2022 and beyond Alexis Gousseau.
