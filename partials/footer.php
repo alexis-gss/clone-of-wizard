@@ -3,7 +3,7 @@ if (!function_exists('getFooter')) {
     function getFooter($simple = false)
     {
         $currentYear = getdate(date("U"))['year'];
-        $credits = "<p>Alexis Gousseau — © 2022 - $currentYear — Currently v1.2.0</p>";
+        $credits = "<p>Alexis Gousseau — © 2022 - $currentYear — Currently v1.1.1</p>";
 
         if ($simple) {
             return "<footer id='footer-simple' class='container border-gray-700 pt-6 text-center text-sm text-gray-500'>

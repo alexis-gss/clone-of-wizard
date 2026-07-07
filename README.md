@@ -33,7 +33,7 @@ You can find all the documentation of this project on this link : [Clone of Wiza
 
 # Changelog
 
-Latest version [v1.2.0](https://github.com/alexis-gss/github-workflows/releases/tag/v1.2.0).
+Latest version [v1.1.1](https://github.com/alexis-gss/clone-of-wizard/releases/tag/v1.1.1).
 
 See the [CHANGELOG.md](CHANGELOG.md) file for details.
 
