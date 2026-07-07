@@ -1,11 +1,16 @@
-name: Github actions deployment
+name: Github actions
 
 on:
   push:
-    branches: [master]
+    branches:
+      - "**"
+  pull_request:
+    types:
+      - opened
 
 jobs:
   deployment:
     name: Deployment production
     uses: alexis-gss/github-workflows/.github/workflows/deployment.yml@master
     secrets: inherit
+    if: github.ref == 'refs/heads/master'
